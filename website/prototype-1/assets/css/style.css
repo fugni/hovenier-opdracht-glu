@@ -4,6 +4,52 @@ body{
 }
 #header{
     background-color: black;
-    height: 100px;
+    max-height: 60px;
+    height: 100%;
+    padding: 20px;
     width: auto;
+    display: flex;
+    justify-content: end;
+}
+#header img{
+    height: 60px;
+}
+#div1{
+    max-height: 300px;
+    height: 100%;
+    width: auto;
+    padding: 70px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: end;
+}
+#logo{
+    max-height: 300px;
+    height: 100%;
+    width: 400px;
+    background-color: #44B261;
+    text-align: center;
+}
+#logo img{
+    height: 300px;
+    width: 400px;
+}
+#content{
+    height: 500px;
+    width: auto;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+.circle{
+    height: 100px;
+    width: 100px;
+    margin-right: 100px;
+    border-radius: 50%;
+    background-color: #008C24;
+}
+.info{
+    height: 200px;
+    width: 300px;
+    border: solid black;
 }
