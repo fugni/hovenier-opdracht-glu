@@ -35,21 +35,31 @@ body{
     width: 400px;
 }
 #content{
-    height: 500px;
+    height: 250px;
     width: auto;
     background-color: white;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end
+}
+#content2{
+    height: 250px;
+    width: auto;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .circle{
     height: 100px;
     width: 100px;
-    margin-right: 100px;
+    margin-bottom: 10px;
     border-radius: 50%;
     background-color: #008C24;
 }
 .info{
     height: 200px;
-    width: 300px;
+    width: 350px;
     border: solid black;
 }
