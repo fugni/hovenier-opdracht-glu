@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    background-color: #73FF98;
 }
 
 #navbar {
@@ -20,8 +19,13 @@ body {
     height: 60px;
 }
 
+#front-page {
+    padding: 2%;
+    background: linear-gradient(to bottom, #73FF98,#44B261);
+}
+
 #title-div {
-    margin: 2% auto;
+    margin: 0 auto;
     border: 5px solid #000000;
     width: 96%;
     max-width: 660px;
@@ -43,4 +47,13 @@ body {
 
 #title-div img {
     height: 300px;
+}
+
+#front-img {
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+#front-img img {
+    height: 500px;
 }
