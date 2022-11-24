@@ -22,6 +22,7 @@ body {
 #front-page {
     padding: 2%;
     background: linear-gradient(to bottom, #73FF98,#44B261);
+    height: 900px;
 }
 
 #title-div {
@@ -51,9 +52,19 @@ body {
 
 #front-img {
     margin-top: 50px;
-    margin-left: 100px;
 }
 
 #front-img img {
     height: 500px;
+    float: left;
+}
+
+#front-img-txt {
+    width: 50%;
+    margin: 50px;
+    float: right;
+}
+
+#front-img-txt p {
+    margin-top: 30px;
 }
