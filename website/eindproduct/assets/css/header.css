@@ -1,5 +1,5 @@
 @media only screen and (max-width: 800px) {
-    #navbar a {
+    #navbar-menu a {
         display: none;
     }
 }
@@ -15,7 +15,7 @@ body {
     font-family: sans-serif;
 }
 
-#header {
+#navbar {
     background-color: black;
     width: 100%;
     display: flex;
@@ -29,31 +29,39 @@ body {
     width: 100px;
 }
 
-#navbar {
+#navbar-menu {
     height: 100px;
     width: calc(100% - 100px);
 }
 
-#navbar nav {
+#navbar-menu nav {
     height: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-#navbar a {
+#navbar-menu a {
     text-decoration: none;
     color: white;
     font-size: 32px;
 }
 
-#hamburger {
-    height: 80px;
-}
-
 #hamburger img {
     width: 80px;
     margin: 10px;
+}
+
+#hamburger-menu {
+    border-top: 2px solid white;
+    display: none;
+    background-color: black;
+}
+
+#hamburger-menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
 }
 
 .nav-selected {
