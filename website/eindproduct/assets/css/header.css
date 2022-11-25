@@ -10,8 +10,6 @@
     } 
 }
 
-
-
 body {
     margin: 0;
     font-family: sans-serif;
@@ -56,4 +54,8 @@ body {
 #hamburger img {
     width: 80px;
     margin: 10px;
+}
+
+.nav-selected {
+    font-weight: bold;
 }
