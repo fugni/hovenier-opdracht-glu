@@ -1,13 +1,56 @@
-body {
-    margin: 0;
+@media only screen and (max-width: 800px) {
+    #navbar a {
+        display: none;
+    }
+
+    #hamburger {
+        display: block;
+    }
 }
 
-#navbar {
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#header {
     background-color: black;
     width: 100%;
+    display: flex;
+}
+
+#logo {
     height: 100px;
 }
 
 #logo img {
+    width: 100px;
+}
+
+#navbar {
     height: 100px;
+    width: calc(100% - 100px);
+}
+
+#navbar nav {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+}
+
+#hamburger {
+    display: none;
+    height: 80px;
+}
+
+#hamburger img {
+    width: 80px;
+    margin: 10px;
 }
