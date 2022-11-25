@@ -2,11 +2,15 @@
     #navbar a {
         display: none;
     }
-
-    #hamburger {
-        display: block;
-    }
 }
+
+@media only screen and (min-width: 801px) {
+    #hamburger {
+        display: none;
+    } 
+}
+
+
 
 body {
     margin: 0;
@@ -46,7 +50,6 @@ body {
 }
 
 #hamburger {
-    display: none;
     height: 80px;
 }
 
