@@ -47,6 +47,10 @@ body {
     font-size: 32px;
 }
 
+#hamburger {
+    cursor: pointer;
+}
+
 #hamburger img {
     width: 80px;
     margin: 10px;
