@@ -1,0 +1,51 @@
+#reviewsleft{
+    height: 1100px;
+    width: 600px;
+    padding: 10px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+    float: left;
+}
+#reviewsright{
+    float: right;
+    height: 1100px;
+    width: 600px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+#reviewsleft1{
+    clear: both;
+    height: 250px;
+    width: 600px;
+    background-color: #FFC151;
+    padding: 10px;
+    margin-top: 315px;
+
+}
+#reviewsleft2{
+    height: 250px;
+    width: 600px;
+    background-color: #FFC151;
+    padding: 10px;
+    margin-top: 215px;
+}
+#reviewsright1{
+    height: 250px;
+    width: 580px;
+    background-color: #FFC151;
+    padding: 10px;
+    margin-top: 80px;
+    margin-left: -120px;
+}
+#reviewsright2{
+    height: 250px;
+    width: 580px;
+    background-color: #FFC151;
+    padding: 10px;
+    margin-left: -120px;
+    margin-top: -30px;
+}
