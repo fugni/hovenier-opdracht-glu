@@ -1,0 +1,44 @@
+.carousel-container {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.carousel {
+    position: relative;
+    width: 70vw;
+    max-width: 700px;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    border: 5px solid black;
+}
+
+.carousel-track-container {
+    height: 100%;
+    position: relative;
+}
+
+.carousel-track {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    height: 100%;
+    transition: transform 250ms ease-in-out;
+}
+
+.carousel-slide {
+    position: absolute;
+    height: 100%;
+}
+
+.carousel-slide img {
+    margin: auto 0;
+    height: 100%;
+}
+
+.carousel-buttons {
+    width: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
