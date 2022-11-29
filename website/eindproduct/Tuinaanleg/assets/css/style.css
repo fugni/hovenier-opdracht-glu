@@ -1,0 +1,27 @@
+#container{
+
+}
+
+#top{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin:2%;
+    padding:2%;
+}
+
+.balls{
+    background-color:#44B261 ;
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+    margin:2%;
+}
+
+.text{
+    border:1px solid black;
+    height:200px;
+    width:300px;
+    margin:2%;
+}
