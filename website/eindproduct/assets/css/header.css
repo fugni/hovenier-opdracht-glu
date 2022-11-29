@@ -1,5 +1,7 @@
 @media screen and (max-width: 800px) {
-    #navbar a:not(:first-child) {display: none;}
+    #navbar a:not(:first-child) {
+        display: none;
+    }
     #navbar a.hamburger-icon {
       display: block;
     }
