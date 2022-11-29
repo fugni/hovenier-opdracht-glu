@@ -10,7 +10,6 @@ body {
 	font-family:sans-serif;
 	font-weight:300;
 	font-size: 12px;
-	line-height:30px;
 	color:#777;
 	background:#44B261;
 }
@@ -116,7 +115,7 @@ fieldset {
     margin-top: 79px;
     margin-left: 20px;
     width: 40%;
-    height: 580px;
+    height: 555px;
     border: 5px solid #ccc;
 }
 .contactcontainer {
