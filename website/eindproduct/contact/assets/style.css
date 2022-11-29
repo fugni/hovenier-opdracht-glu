@@ -118,7 +118,7 @@ fieldset {
  color:#888;
 }
 
-.tuin1 img {
+.stock1 {
     float: center;
     margin-top: 79px;
     margin-left: 20px;
@@ -152,6 +152,7 @@ fieldset {
 }
 .contactcontainer ul li {
     display: inline-block;
+ 
 }
 
 .contactcontainer ul li a {
@@ -159,8 +160,10 @@ fieldset {
 }
 
 .contactcontainer ul li a img {
-    height: 59px;
-    width: 50%;
+    height: 57px;
+    width: 55%;
     margin-bottom: 50px;
+    margin-left: 20px;
+    margin-top: 32px;
 
 }
