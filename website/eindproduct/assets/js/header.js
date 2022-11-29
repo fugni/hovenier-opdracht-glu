@@ -1,11 +1,10 @@
-const hamburger = document.getElementById("hamburger");
+const hamburgerIcon = document.querySelector(".hamburger-icon")
 
-hamburger.addEventListener("click", () => {
-    const hamburgerMenu = document.getElementById("hamburger-menu");
-    if (hamburgerMenu.style.display == "block") {
-        hamburgerMenu.style.display = "none";
+hamburgerIcon.addEventListener("click", () => {
+    const navbar = document.getElementById("navbar");
+    if (navbar.className === "navbar") {
+        navbar.className = "hamburgered"
     } else {
-        hamburgerMenu.style.display = "block";
+        navbar.classList = "navbar"
     }
-    console.log("a")
 })
