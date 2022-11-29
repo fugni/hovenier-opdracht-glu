@@ -7,6 +7,7 @@ window.addEventListener("load", () => {
         slide.style.left = slideWidth * index + "px";
     };
     slides.forEach(setSlidePosition);
+    console.log(slideWidth)
 })
 
 const moveToSlide = (track, currentSlide, targetSlide) => {

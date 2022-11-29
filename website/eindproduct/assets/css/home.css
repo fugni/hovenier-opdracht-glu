@@ -1,13 +1,16 @@
 .carousel-container {
-    margin-top: 100px;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
 }
 
 .carousel {
     position: relative;
-    height: 420px;
-    width: 560px;
-    margin: 0 auto;
+    width: 70vw;
+    max-width: 700px;
+    aspect-ratio: 16 / 9;
     overflow: hidden;
+    border: 5px solid black;
 }
 
 .carousel-track-container {
@@ -35,12 +38,7 @@
 }
 
 .carousel-buttons {
-    display: flex;
-    justify-content: center;
-}
-
-.carousel-buttons button {
     width: 100px;
-    height: 30px;
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
