@@ -4,13 +4,6 @@
 	margin:0;
 	padding:0;
 	box-sizing:border-box;
-	-webkit-box-sizing:border-box;
-	-moz-box-sizing:border-box;
-	-webkit-font-smoothing:antialiased;
-	-moz-font-smoothing:antialiased;
-	-o-font-smoothing:antialiased;
-	font-smoothing:antialiased;
-	text-rendering:optimizeLegibility;
 }
 
 body {
@@ -162,6 +155,7 @@ fieldset {
 .contactcontainer ul li a img {
     height: 57px;
     width: 55%;
+    max-width: 57px;
     margin-bottom: 50px;
     margin-left: 20px;
     margin-top: 32px;
