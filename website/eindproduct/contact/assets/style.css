@@ -136,8 +136,31 @@ fieldset {
     margin-left: 32px;
     box-sizing: border-box;
     background-color: #F9F9F9;
+    margin-top: 79px;
+    margin-right: 20px;
+    font-size: 18px;
+    color: #000000;
+    padding: 5px;
 }
 
 .contactcontainer h1 {
     color: #000000;
+    font-size: 30px;
+}   
+.contactcontainer ul {
+    display: block;
+}
+.contactcontainer ul li {
+    display: inline-block;
+}
+
+.contactcontainer ul li a {
+    padding: 20px;
+}
+
+.contactcontainer ul li a img {
+    height: 59px;
+    width: 50%;
+    margin-bottom: 50px;
+
 }
