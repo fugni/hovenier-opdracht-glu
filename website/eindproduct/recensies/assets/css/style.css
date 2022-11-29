@@ -1,51 +1,60 @@
-#reviewsleft{
-    height: 1100px;
-    width: 600px;
+#content1{
+    height: 660px;
+    max-width: 355,2px;
+    width: 100%;
     padding: 10px;
-    margin-left: 100px;
-    display: flex;
-    justify-content: end;
-    flex-wrap: wrap;
-    float: left;
+    margin-left: -10px;
+}
+#reviewsleft{
+    height: 320px;
+    max-width: 345px;
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
 }
 #reviewsright{
-    float: right;
-    height: 1100px;
-    width: 600px;
-    margin-left: 50px;
-    display: flex;
-    justify-content: start;
-    flex-wrap: wrap;
+    height: 320px;
+    max-width: 345px;
+    width: 100%;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
 }
-#reviewsleft1{
-    clear: both;
-    height: 250px;
-    width: 600px;
-    background-color: #FFC151;
+.reviewslefttext{
+    height: 120px;
+    max-width: 315px;
+    width: 100%;
+    margin-top: 20px;
     padding: 10px;
-    margin-top: 315px;
-
+    background-color: #FFC151;
 }
-#reviewsleft2{
-    height: 250px;
-    width: 600px;
-    background-color: #FFC151;
+.reviewsrighttext{
+    height: 120px;
+    max-width: 315px;
+    width: 100%;
+    margin-top: 20px;
     padding: 10px;
-    margin-top: 215px;
+    background-color: #FFC151;
 }
-#reviewsright1{
-    height: 250px;
-    width: 580px;
-    background-color: #FFC151;
-    padding: 10px;
-    margin-top: 80px;
-    margin-left: -120px;
+.profielfoto{
+    background-color: lightgray;
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
 }
-#reviewsright2{
-    height: 250px;
-    width: 580px;
-    background-color: #FFC151;
-    padding: 10px;
-    margin-left: -120px;
-    margin-top: -30px;
+.profielfoto h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 130px;
+    max-width: 200px;
+    width: 150%;
+}
+.profielfoto p{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 130px;
+    max-width: 150px;
+    width: 125%;
+    font-size: small;
 }
