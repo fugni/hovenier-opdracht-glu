@@ -5,6 +5,6 @@ hamburgerIcon.addEventListener("click", () => {
     if (navbar.className === "navbar") {
         navbar.className = "hamburgered"
     } else {
-        navbar.classList = "navbar"
+        navbar.className = "navbar"
     }
 })
