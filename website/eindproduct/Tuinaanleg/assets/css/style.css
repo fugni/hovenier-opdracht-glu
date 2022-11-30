@@ -1,29 +1,29 @@
 *{
     font-family: sans-serif;
 }
-
 #container{
     display: flex;
-    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
 }
+
 .balls{
-    height:100px;
-    width:100px;
+    height:150px;
+    width:150px;
     border-radius: 50%;
     background-color:#44B261 ;
     margin:0 auto;
     margin-top: 5%;
 }
 .balls img{
-    margin:20%;
-    height:60px;
+    margin:17%;
+    height:90px;
 }
 .text{
     margin-top:5%;
     border:1px black solid;
     height:150px;
-    width:300px;
+    width:400px;
 }
 .text h3{
     text-align: center;
@@ -31,3 +31,34 @@
 .text p{
     text-align: center;
 }
+
+#left {
+    float: left;
+}
+#right {
+    float: right;
+}
+
+@media (max-width: 800px) {
+    #container {
+        flex-direction: column;
+    }
+    .balls{
+        height:100px;
+        width:100px;
+        border-radius: 50%;
+        background-color:#44B261 ;
+        margin:0 auto;
+        margin-top: 5%;
+    }
+    .balls img{
+        margin:20%;
+        height:60px;
+    }
+    .text{
+        margin-top:5%;
+        border:1px black solid;
+        height:150px;
+        width:300px;
+    }
+  }
