@@ -1,36 +1,33 @@
+*{
+    font-family: sans-serif;
+}
+
 #container{
-    display:flex;
+    display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
-    margin:2%;
-    padding:2%;
 }
-
-.hokje{
-    
-}
-
 .balls{
-    background-color:#44B261 ;
     height:100px;
     width:100px;
     border-radius: 50%;
-    margin:2%;
+    background-color:#44B261 ;
+    margin:0 auto;
+    margin-top: 5%;
 }
-
+.balls img{
+    margin:20%;
+    height:60px;
+}
 .text{
-    border:1px solid black;
+    margin-top:5%;
+    border:1px black solid;
     height:150px;
     width:300px;
-    margin:2%;
 }
-
-.balls img{
-    height:65px;
-    width:65px;
-    margin:18%
+.text h3{
+    text-align: center;
 }
-.text{
+.text p{
     text-align: center;
 }
