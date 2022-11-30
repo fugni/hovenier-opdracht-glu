@@ -1,6 +1,5 @@
 body {
     background-color: #44B261;
-    height: 2000px;
 }
 
 #hendrik-foto {
@@ -15,11 +14,11 @@ body {
 
 .vptx {
     width: 25%;
+    min-width: 300px;
     margin: 50px;
     padding: 5px;
     background-color: #FFC151;
     transition: padding 2s;
-    transition: margin 2s;
 }
 
 .vptx a {
