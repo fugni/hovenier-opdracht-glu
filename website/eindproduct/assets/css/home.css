@@ -1,5 +1,37 @@
+body {
+    background-color: #44B261;
+}
+
+#hendrik-foto {
+    height: 200px;
+}
+
+#voorpagina-textbox {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.vptx {
+    width: 25%;
+    min-width: 300px;
+    margin: 50px;
+    padding: 5px;
+    background-color: #FFC151;
+    transition: padding 1s;
+}
+
+.vptx a {
+    text-decoration: none;
+    color: black;
+}
+
+.vptx:hover {
+    margin: 25px;
+    padding: 25px;
+}
+
 .carousel-container {
-    margin-top: 5%;
     display: flex;
     justify-content: center;
 }
