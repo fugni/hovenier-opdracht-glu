@@ -1,60 +1,16 @@
-#content1{
-    height: 660px;
-    max-width: 355,2px;
-    width: 100%;
+#container{
+    height: auto;
+    width: 355;
     padding: 10px;
-    margin-left: -10px;
 }
 #reviewsleft{
-    height: 320px;
-    max-width: 345px;
-    width: 100%;
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-right: 10px;
+    height: 600px;
+    width: 335px;
+    padding: 10px;
 }
-#reviewsright{
-    height: 320px;
-    max-width: 345px;
-    width: 100%;
-    padding-left: 10px;
-    padding-bottom: 10px;
-    padding-right: 10px;
-}
-.reviewslefttext{
-    height: 120px;
-    max-width: 315px;
-    width: 100%;
-    margin-top: 20px;
+.reviewsleftbox{
+    height: 150px;
+    width: 315px;
     padding: 10px;
     background-color: #FFC151;
-}
-.reviewsrighttext{
-    height: 120px;
-    max-width: 315px;
-    width: 100%;
-    margin-top: 20px;
-    padding: 10px;
-    background-color: #FFC151;
-}
-.profielfoto{
-    background-color: lightgray;
-    border-radius: 50%;
-    height: 120px;
-    width: 120px;
-}
-.profielfoto h3{
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 130px;
-    max-width: 200px;
-    width: 150%;
-}
-.profielfoto p{
-    margin-top: 5px;
-    margin-bottom: 0px;
-    margin-left: 130px;
-    max-width: 150px;
-    width: 125%;
-    font-size: small;
 }
