@@ -1,18 +1,22 @@
 *{
     font-family: sans-serif;
 }
+body{
+    background-color: rgb(160, 255, 190);
+}
 #container{
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-bottom: 10px;
+    height:800px;
 }
 
 .balls{
     height:150px;
     width:150px;
     border-radius: 50%;
-    background-color:#44B261 ;
+    background-color:#FFC151 ;
     margin:0 auto;
     margin-top: 5%;
 }
@@ -25,6 +29,7 @@
     border:1px black solid;
     height:150px;
     width:400px;
+    background-color: #fadd76;
 }
 .text h3{
     text-align: center;
@@ -48,7 +53,7 @@
         height:100px;
         width:100px;
         border-radius: 50%;
-        background-color:#44B261 ;
+        background-color:#FFC151 ;
         margin:0 auto;
         margin-top: 5%;
     }
