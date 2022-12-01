@@ -119,7 +119,7 @@ fieldset {
     width: 80%;
     height: 588px;
     border: 5px solid #000000;
-	max-width: 568px;
+	max-width: 589px;
 
 }
 .contactcontainer {
@@ -132,11 +132,12 @@ fieldset {
     margin-left: 32px;
     box-sizing: border-box;
     background-color: #fadd76;
-    margin-top: 89px;
+    margin-top: 79px;
     margin-right: 25px;
     font-size: 18px;
     color: #000000;
-    padding: 5px;
+    padding: 10px;
+	height: 588px;
 }
 
 .contactcontainer h1 {
@@ -160,7 +161,6 @@ fieldset {
     height: 57px;
     width: 55%;
     max-width: 57px;
-    margin-bottom: 45px;
     margin-left: 20px;
     margin-top: 32px;
 
