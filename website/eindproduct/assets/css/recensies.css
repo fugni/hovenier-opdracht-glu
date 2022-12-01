@@ -1,3 +1,6 @@
+body{
+    background-color: #a0febf;
+}
 #container{
     height: auto;
     width: 355;
@@ -97,7 +100,7 @@
 
 @media  (min-width: 800px) {
     #reviewsleft{
-        height: 660px;
+        height: 1100px;
         max-width: 520px;
         width: 100%;
         padding: 10px;
@@ -105,7 +108,7 @@
         float: left;
     }
     #reviewsright{
-        height: 690px;
+        height: 1100px;
         max-width: 720px;
         width: 100%;
         padding: 10px;
@@ -113,26 +116,29 @@
     }
     #reviewsleftboxeen{
         clear: both;
-        height: 150px;
+        height: 170px;
         max-width: 500px;
         width: 100%;
         padding: 10px;
+        margin-top: 170px;
         margin-bottom: 20px;
         background-color: #FFC151;
     }
     #reviewsleftboxtwee{
-        height: 150px;
+        height: 170px;
         max-width: 500px;
         width: 100%;
         padding: 10px;
         margin-bottom: 20px;
+        margin-top: 150px;
         background-color: #FFC151;
     }
     #reviewsleftboxdrie{
-        height: 260px;
+        height: 170px;
         max-width: 500px;
         width: 100%;
         padding: 10px;
+        margin-top: 150px;
         background-color: #FFC151;
     }
     #reviewsrightboxeen{
@@ -144,11 +150,12 @@
         background-color: #FFC151;
     }
     #reviewsrightboxtwee{
-        height: 250px;
+        height: 170px;
         max-width: 500px;
         width: 100%;
         padding: 10px;
         margin-bottom: 20px;
+        margin-top: 150px;
         background-color: #FFC151;
     }
     #reviewsrightboxdrie{
@@ -156,6 +163,7 @@
         max-width: 500px;
         width: 100%;
         padding: 10px;
+        margin-top: 150px;
         background-color: #FFC151;
     }
 }
