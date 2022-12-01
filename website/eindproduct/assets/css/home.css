@@ -1,9 +1,16 @@
-body {
-    background-color: #a0febf;
+@media screen and (max-width: 800px) {
+    .vptx {
+        margin: 20px;
+    }
 }
 
-#hendrik-foto {
-    height: 200px;
+body {
+    background-color: #a0febf;
+
+}
+
+#voorpagina-img img {
+    width: 100%;
 }
 
 #voorpagina-textbox {
@@ -29,78 +36,4 @@ body {
 .vptx:hover {
     margin: 25px;
     padding: 25px;
-}
-
-.carousel-container {
-    display: flex;
-    justify-content: center;
-}
-
-.carousel {
-    position: relative;
-    width: 70vw;
-    max-width: 700px;
-    aspect-ratio: 16 / 9;
-    overflow: hidden;
-    border: 5px solid black;
-}
-
-.carousel-track-container {
-    height: 100%;
-    position: relative;
-}
-
-.carousel-track {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    position: relative;
-    height: 100%;
-    transition: transform 250ms ease-in-out;
-}
-
-.carousel-slide {
-    position: absolute;
-    height: 100%;
-}
-
-.carousel-slide img {
-    margin: auto 0;
-    height: 100%;
-}
-
-.carousel-buttons {
-    width: 100px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    background-color: #FFC151;
-    border-color: #FFC151;
-}
-
-#welkom1 {
-    font-size: 38px;
-    text-align: center;
-    padding-top: 38px;
-    margin: 0;
-}
-
-#welkom2 {
-    font-size: 32px;
-    text-align: center;
-    padding-bottom: 32px;
-    margin: 0;
-}
-
-@media screen and (max-width: 800px) {
-    #welkom1 {
-        font-size: 26px;
-        padding-top: 26px;
-    }
-    #welkom2 {
-        font-size: 20px;
-        padding-bottom: 20px;
-    }
-    .vptx {
-        margin: 20px;
-    }
 }

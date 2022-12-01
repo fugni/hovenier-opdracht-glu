@@ -52,7 +52,7 @@ body{
 
 #about-me {
     padding-top: 100px;
-    padding-bottom: 300px;
+    padding-bottom: 50px;
 }
 
 #hendrik-img {
@@ -75,4 +75,8 @@ body{
     padding: 15px;
     width: 80%;
     background-color: #FFC151;
+}
+
+#the {
+    clear: both;
 }
