@@ -2,8 +2,6 @@ body{
     background-color: #a0febf;
 }
 #container{
-    height: auto;
-    width: 355;
     padding: 10px;
 }
 #reviewsleft{
@@ -17,6 +15,9 @@ body{
     max-width: 335px;
     width: 100%;
     padding: 10px;
+}
+#the {
+    clear: both;
 }
 .profielfoto{
     height: 100px;
