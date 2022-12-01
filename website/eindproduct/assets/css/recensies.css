@@ -23,6 +23,12 @@
     background-color: lightgray;
     border-radius: 50%;
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profielfoto i {
+    font-size: 80px;
 }
 .reviewsleftusername{
     height: 20px;
