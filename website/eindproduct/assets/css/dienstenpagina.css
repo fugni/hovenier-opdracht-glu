@@ -48,6 +48,7 @@ body{
 @media (max-width: 800px) {
     #container {
         flex-direction: column;
+        height:1200px;
     }
     .balls{
         height:100px;
