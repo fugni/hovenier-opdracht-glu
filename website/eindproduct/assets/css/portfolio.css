@@ -11,6 +11,7 @@
     aspect-ratio: 16 / 9;
     overflow: hidden;
     border: 5px solid black;
+    box-shadow: 20px 20px #44B261;
 }
 
 .carousel-track-container {
@@ -41,4 +42,34 @@
     width: 100px;
     margin-top: 20px;
     margin-bottom: 20px;
+    background-color: #FFC151;
+    border-color: #FFC151;
+    z-index: 1;
+}
+
+#about-me {
+    padding-top: 100px;
+    padding-bottom: 300px;
+}
+
+#hendrik-img {
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+
+#hendrik-img img {
+    width: 50%;
+    box-shadow: 20px 20px #44B261;
+}
+
+#hendrik-txt {
+    width: 70%;
+    float: right;
+}
+
+#hendrik-txt p {
+    padding: 15px;
+    width: 80%;
+    background-color: #FFC151;
 }

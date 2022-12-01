@@ -73,4 +73,34 @@ body {
     width: 100px;
     margin-top: 20px;
     margin-bottom: 20px;
+    background-color: #FFC151;
+    border-color: #FFC151;
+}
+
+#welkom1 {
+    font-size: 38px;
+    text-align: center;
+    padding-top: 38px;
+    margin: 0;
+}
+
+#welkom2 {
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 32px;
+    margin: 0;
+}
+
+@media screen and (max-width: 800px) {
+    #welkom1 {
+        font-size: 26px;
+        padding-top: 26px;
+    }
+    #welkom2 {
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+    .vptx {
+        margin: 20px;
+    }
 }
