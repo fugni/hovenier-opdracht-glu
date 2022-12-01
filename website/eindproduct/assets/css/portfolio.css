@@ -1,3 +1,6 @@
+body{
+    background-color: #a0febf;
+}
 .carousel-container {
     margin-top: 25px;
     display: flex;
