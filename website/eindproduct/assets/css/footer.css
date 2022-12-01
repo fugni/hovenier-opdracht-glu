@@ -1,0 +1,19 @@
+#footer{
+    background-color: rgb(3, 76, 34);
+    width:100%;
+    height:150px;
+}
+.contact{
+    color:white;
+    text-align: center;
+    float: right;
+    padding-right:20%;
+}
+
+#openingstijden{
+    color:white;
+    float: left;
+    text-align: center;
+    padding-left:20%;
+    padding-right:30px;
+}
