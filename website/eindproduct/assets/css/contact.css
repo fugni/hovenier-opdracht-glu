@@ -119,6 +119,7 @@ fieldset {
     height: 588px;
     border: 5px solid #000000;
 	max-width: 589px;
+	object-fit: cover;
 
 }
 .contactcontainer {
